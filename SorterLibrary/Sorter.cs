@@ -13,7 +13,7 @@ namespace SorterLibrary
         }
 
         /// <summary>
-        /// This uses the Insertion Sort algorithm, which my tests have shown to be the quickest,
+        /// This uses the Insertion Sort algorithm, which my learnings have shown to be the quickest,
         ///   although I know QuickSort is theoretically supposed to be quicker.
         /// </summary>
         /// <param name="input"></param>
