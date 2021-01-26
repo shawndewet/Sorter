@@ -9,7 +9,7 @@ namespace SorterTests
         [InlineData("Shawn", "ahnsw")]
         public void TestBuiltInSort(string input, string expected)
         {
-            var testTarget = new SorterLibrary.Class1();
+            var testTarget = new SorterLibrary.Sorter();
             var actual = testTarget.SortBuiltIn(input);
             Assert.Equal(expected, actual);
         }
@@ -18,7 +18,7 @@ namespace SorterTests
         [InlineData("Shawn", "ahnsw")]
         public void TestHandCodedSort(string input, string expected)
         {
-            var testTarget = new SorterLibrary.Class1();
+            var testTarget = new SorterLibrary.Sorter();
             var actual = testTarget.SortHandCoded(input);
             Assert.Equal(expected, actual);
         }
